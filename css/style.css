@@ -24,7 +24,6 @@
 
 .container {
     width: 1024px;
-    height: 800px;
     margin: 0 auto;
     background-color: white;
 }
@@ -60,7 +59,6 @@ nav li {
 .block ul {
     margin-top: 15px;
     margin-left: 25px;
-    
 }
 
 .block ul li:nth-child(1) {
@@ -123,7 +121,7 @@ p {
 }
 
 .personal-information {
-    margin-left: 50px;
+    margin-left: 20px;
 }
 
 .course {
@@ -132,6 +130,11 @@ p {
 
 i {
     font-size: 17px;
+}
+
+.block {
+    margin-top: 30px;
+    margin-bottom: 50px;
 }
 
 
