@@ -64,6 +64,12 @@
     background-color: white;
 }
 
+.personal-information {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
 nav li {
     display: inline-block;
 }
@@ -89,6 +95,12 @@ nav li {
 
 .links {
     display: inline-block;
+}
+
+.block ul {
+    margin-top: 15px;
+    margin-left: 25px;
+    
 }
 
 .block ul li:nth-child(1) {
