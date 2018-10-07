@@ -19,13 +19,15 @@
   }
 
 .outside-container {
-    background-color: gray;
+    
+    background-image: url('../pictures/000595737_l_crop.jpg');
 }
 
 .container {
     width: 1024px;
     margin: 0 auto;
-    background-color: white;
+    background-color: rgb(232, 240, 241);
+
 }
 
 nav li {
