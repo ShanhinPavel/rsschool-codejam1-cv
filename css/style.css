@@ -40,13 +40,6 @@
   }
   
   @font-face {
-    font-family: "Fa-regular";
-    src: url("../fonts/fa-regular-400.ttf") format("TrueType");
-    font-style: normal;
-    font-weight: normal;
-  }
-  
-  @font-face {
     font-family: "OpenSans-Regular";
     src: url("../fonts/OpenSans-Regular.ttf") format("TrueType");
     font-style: normal;
@@ -64,11 +57,7 @@
     background-color: white;
 }
 
-.personal-information {
-    margin-top: 20px;
-    margin-bottom: 50px;
-    width: 100%;
-}
+
 
 nav li {
     display: inline-block;
@@ -87,6 +76,7 @@ nav li {
 .education,
 .expirience,
 .skills,
+.additional,
 .language {
     display: inline-block;
     width: 100%;
@@ -136,7 +126,8 @@ p {
 .education-header,
 .language-header,
 .expirience-header,
-.skills-header {
+.skills-header,
+.additional-header {
     width: 20%;
     float: left;
 }
@@ -145,7 +136,8 @@ p {
 .education-text,
 .language-text,
 .skills-text,
-.expirience.text {
+.expirience-text,
+.additional-text {
     width: 80%;
     float: right;
 }
@@ -160,9 +152,9 @@ p {
     margin: 5px auto;
 }
 
-
-
-
+.links a {
+    color: black;
+}
 
 
 
