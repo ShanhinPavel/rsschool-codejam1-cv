@@ -4,38 +4,10 @@
     box-sizing: border-box;
 }
 
-@font-face {
-    font-family: "YesevaOne-Regular";
-    src: url("../fonts/YesevaOne-Regular.ttf") format("TrueType");
-    font-style: normal;
-    font-weight: normal;
-  }
-  
-  @font-face {
-    font-family: "GentiumBookBasic";
-    src: url("../fonts/GenBkBasB.ttf") format("TrueType");
-    font-style: normal;
-    font-weight: bold;
-  }
-  
   @font-face {
     font-family: "Lato-Regular";
     src: url("../fonts/Lato-Regular.ttf") format("TrueType");
     font-style: normal;
-    font-weight: normal;
-  }
-  
-  @font-face {
-    font-family: "OpenSans-Bold";
-    src: url("../fonts/OpenSans-Bold.ttf") format("TrueType");
-    font-style: normal;
-    font-weight: bold;
-  }
-  
-  @font-face {
-    font-family: "OpenSans-Italic";
-    src: url("../fonts/OpenSans-Italic.ttf") format("TrueType");
-    font-style: italic;
     font-weight: normal;
   }
   
@@ -56,8 +28,6 @@
     margin: 0 auto;
     background-color: white;
 }
-
-
 
 nav li {
     display: inline-block;
@@ -110,7 +80,7 @@ nav li {
 }
 
 .links {
-    margin-left: 150px;
+    margin-left: 250px;
 }
 
 h3, h1, h2 {
@@ -152,8 +122,16 @@ p {
     margin: 5px auto;
 }
 
-.links a {
-    color: black;
+.personal-information {
+    margin-left: 50px;
+}
+
+.course {
+    font-family: OpenSans-Italic;
+}
+
+i {
+    font-size: 17px;
 }
 
 
