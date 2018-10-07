@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "YesevaOne-Regular";
+    src: url("../fonts/YesevaOne-Regular.ttf") format("TrueType");
+    font-style: normal;
+    font-weight: normal;
+  }
+  
+  @font-face {
+    font-family: "GentiumBookBasic";
+    src: url("../fonts/GenBkBasB.ttf") format("TrueType");
+    font-style: normal;
+    font-weight: bold;
+  }
+  
+  @font-face {
+    font-family: "Lato-Regular";
+    src: url("../fonts/Lato-Regular.ttf") format("TrueType");
+    font-style: normal;
+    font-weight: normal;
+  }
+  
+  @font-face {
+    font-family: "OpenSans-Bold";
+    src: url("../fonts/OpenSans-Bold.ttf") format("TrueType");
+    font-style: normal;
+    font-weight: bold;
+  }
+  
+  @font-face {
+    font-family: "OpenSans-Italic";
+    src: url("../fonts/OpenSans-Italic.ttf") format("TrueType");
+    font-style: italic;
+    font-weight: normal;
+  }
+  
+  @font-face {
+    font-family: "Fa-regular";
+    src: url("../fonts/fa-regular-400.ttf") format("TrueType");
+    font-style: normal;
+    font-weight: normal;
+  }
+  
+  @font-face {
+    font-family: "OpenSans-Regular";
+    src: url("../fonts/OpenSans-Regular.ttf") format("TrueType");
+    font-style: normal;
+    font-weight: normal;
+  }
+
+.outside-container {
+    background-color: gray;
+}
+
+.container {
+    width: 1024px;
+    height: 800px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+nav li {
+    display: inline-block;
+}
+
+.block {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.block img {
+    margin: 5px 50px 5px 30px;
+}
+
+.summary,
+.education,
+.expirience,
+.skills,
+.language {
+    display: inline-block;
+    width: 100%;
+    margin: 20px 10px 20px 50px;
+}
+
+.links {
+    display: inline-block;
+}
+
+.block ul li:nth-child(1) {
+    list-style-image: url('../pictures/home.png');
+}
+
+.block ul li:nth-child(2) {
+    list-style-image: url('../pictures/Telephone.png');
+}
+
+.block ul li:nth-child(3) {
+    list-style-image: url('../pictures/email.png');
+}
+
+.block ul li {
+    font-family: OpenSans-Regular;
+}
+
+.links {
+    margin-left: 150px;
+}
+
+h3, h1, h2 {
+    font-family: Lato-Regular;
+    color: rgb(33, 102, 129);
+}
+
+p {
+    font-family: OpenSans-Regular;
+}
+
+.summary-header,
+.education-header,
+.language-header,
+.expirience-header,
+.skills-header {
+    width: 20%;
+    float: left;
+}
+
+.summary-text,
+.education-text,
+.language-text,
+.skills-text,
+.expirience.text {
+    width: 80%;
+    float: right;
+}
+
+.skills-text ul{
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 50px;
+}
+
+.skills-text li {
+    margin: 5px auto;
+}
+
+
+
+
+
+
+
+
