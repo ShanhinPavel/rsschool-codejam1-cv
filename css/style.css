@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+  @font-face {
+    font-family: "Lato-Regular";
+    src: url("../fonts/Lato-Regular.ttf") format("TrueType");
+    font-style: normal;
+    font-weight: normal;
+  }
+  
+  @font-face {
+    font-family: "OpenSans-Regular";
+    src: url("../fonts/OpenSans-Regular.ttf") format("TrueType");
+    font-style: normal;
+    font-weight: normal;
+  }
+
+.outside-container {
+    
+    background-image: url('../pictures/additional-backround.jpg');
+}
+
+.container {
+    width: 1024px;
+    margin: 0 auto;
+    background-color: rgb(232, 240, 241);
+
+}
+
+nav li {
+    display: inline-block;
+}
+
+.block {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.block img {
+    margin: 5px 50px 5px 30px;
+}
+
+.summary,
+.education,
+.expirience,
+.skills,
+.additional,
+.language {
+    display: inline-block;
+    width: 100%;
+    margin: 20px 10px 20px 50px;
+}
+
+.links {
+    display: inline-block;
+}
+
+.block ul {
+    margin-top: 15px;
+    margin-left: 25px;
+}
+
+.block ul li:nth-child(1) {
+    list-style-image: url('../pictures/home.png');
+}
+
+.block ul li:nth-child(2) {
+    list-style-image: url('../pictures/Telephone.png');
+}
+
+.block ul li:nth-child(3) {
+    list-style-image: url('../pictures/email.png');
+}
+
+.block ul li {
+    font-family: OpenSans-Regular;
+}
+
+.links {
+    margin-left: 250px;
+}
+
+h3, h1, h2 {
+    font-family: Lato-Regular;
+    color: rgb(33, 102, 129);
+}
+
+p {
+    font-family: OpenSans-Regular;
+}
+
+.summary-header,
+.education-header,
+.language-header,
+.expirience-header,
+.skills-header,
+.additional-header {
+    width: 20%;
+    float: left;
+}
+
+.summary-text,
+.education-text,
+.language-text,
+.skills-text,
+.expirience-text,
+.additional-text {
+    width: 80%;
+    float: right;
+}
+
+.skills-text ul{
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 50px;
+}
+
+.skills-text li {
+    margin: 5px auto;
+}
+
+.personal-information {
+    margin-left: 20px;
+}
+
+.course {
+    font-family: OpenSans-Italic;
+}
+
+i {
+    font-size: 17px;
+}
+
+.block {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+
+
+
